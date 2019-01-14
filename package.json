@@ -46,6 +46,7 @@
     "react-app-polyfill": "^0.2.0",
     "react-dev-utils": "^7.0.1",
     "react-dom": "^16.7.0",
+    "redux": "^4.0.1",
     "resolve": "1.8.1",
     "sass-loader": "7.1.0",
     "terser-webpack-plugin": "1.1.0",
@@ -135,9 +136,9 @@
     "style-loader": "^0.23.0"
   },
   "theme": {
-          "brand-primary": "#cc99cc",
-          "brand-primary-tap": "#663366",
-          "color-text-base":  "#333",
-          "button-height": "100 * @hd"
-      }
+    "brand-primary": "#cc99cc",
+    "brand-primary-tap": "#663366",
+    "color-text-base": "#333",
+    "button-height": "100 * @hd"
+  }
 }
