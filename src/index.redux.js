@@ -20,3 +20,10 @@ export function addGun(){
 export function removeGun(){
     return {type:DECREMENT}
 }
+export function addGunAsyn(){
+    return dispatch=>{
+        setTimeout(()=>{
+            dispatch(addGun())
+        }, 2000)
+    }
+}
