@@ -48,6 +48,7 @@
     "react-dev-utils": "^7.0.1",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
     "react-thunk": "^1.0.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
@@ -128,7 +129,10 @@
         }
       ],
       [
-        "@babel/plugin-proposal-decorators", { "legacy": true }
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
       ]
     ]
   },

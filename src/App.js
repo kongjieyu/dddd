@@ -10,9 +10,8 @@ import { addGun, removeGun, addGunAsyn } from './index.redux.js'
 
 // App = connect(mapStateToProps, actionCreators)(App)
 @connect(
-    (state)=>({num: state}),
-    { addGun, removeGun, addGunAsyn }
-)
+    state=>({num:state.counter}), 
+    { addGun, removeGun, addGunAsyn})
 class App extends React.Component{
     render(){
         // const store = this.props.store
