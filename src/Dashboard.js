@@ -82,7 +82,8 @@ class Dashboard extends React.Component{
                     <Route path='/dashboard/' exact component={App}></Route>
                     <Route path='/dashboard/art' exact component={Art}></Route>
                     <Route path='/dashboard/tech' exact component={Tech}></Route>
-                    <button onClick={()=>logout()}>Logout</button>
+                    {this.props.isAuth?<button onClick={logout}>Logout</button>:null}
+                    
             </div>
         )
         return this.props.isAuth?app:RedirectToLogin

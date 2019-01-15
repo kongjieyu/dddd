@@ -19,7 +19,7 @@ class Auth extends React.Component{
             <div>
                 {this.props.isAuth?<Redirect to='/dashboard'></Redirect>:null}
                 <h2>需要登陆</h2>
-                <button onClick={()=>login()}>登陆</button>
+                <button onClick={login}>登陆</button>
             </div>
         )
 
